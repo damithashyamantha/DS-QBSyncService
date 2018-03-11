@@ -1,0 +1,13 @@
+C:\Projects\DS-QBSyncService\QBEntity\bin\Debug\QBEntity.dll
+C:\Projects\DS-QBSyncService\QBEntity\bin\Debug\QBEntity.pdb
+C:\Projects\DS-QBSyncService\QBEntity\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\DS-QBSyncService\QBEntity\bin\Debug\Newtonsoft.Json.xml
+C:\Projects\DS-QBSyncService\QBEntity\obj\Debug\QBEntity.csprojResolveAssemblyReference.cache
+C:\Projects\DS-QBSyncService\QBEntity\obj\Debug\QBEntity.dll
+C:\Projects\DS-QBSyncService\QBEntity\obj\Debug\QBEntity.pdb
+C:\Personal\DS-QBSyncService\QBEntity\bin\Debug\QBEntity.dll
+C:\Personal\DS-QBSyncService\QBEntity\bin\Debug\QBEntity.pdb
+C:\Personal\DS-QBSyncService\QBEntity\bin\Debug\Newtonsoft.Json.dll
+C:\Personal\DS-QBSyncService\QBEntity\bin\Debug\Newtonsoft.Json.xml
+C:\Personal\DS-QBSyncService\QBEntity\obj\Debug\QBEntity.dll
+C:\Personal\DS-QBSyncService\QBEntity\obj\Debug\QBEntity.pdb

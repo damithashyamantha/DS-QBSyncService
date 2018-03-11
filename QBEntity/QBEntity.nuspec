@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Quickbooks.Entities</id>
+    <version>1.0.0</version>
+    <title>Quickbooks Entities</title>
+    <authors>Damitha Shyamantha</authors>
+    <owners>Crowderia</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Quickbooks custom entity classes for Logistics sync</description>
+    <releaseNotes>Quickbooks custom entity classes for Logistics sync</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>Quickbooks Tag2</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="10.0.3" />
+    </dependencies>
+  </metadata>
+   <files>
+        <file src="readme.txt" target="" />
+        <file src="CLSync\CLCustomer.cs" target="content" />
+        <file src="CLSync\CustomerCLSync.cs" target="content" />
+        <file src="QB\Address.cs" target="content" />
+        <file src="QB\Company.cs" target="content" />
+        <file src="QB\Customer.cs" target="content" />
+        <file src="QB\DiscoveryData.cs" target="content" />
+        <file src="QB\Email.cs" target="content" />
+        <file src="QB\IdTokenHeader.cs" target="content" />
+        <file src="QB\IdTokenPayload.cs" target="content" />
+        <file src="QB\NameValue.cs" target="content" />
+        <file src="QB\NewQbCustomer.cs" target="content" />
+        <file src="QB\Phone.cs" target="content" />
+        <file src="System\BaseEntity.cs" target="content" />
+        <file src="System\MetaData.cs" target="content" />
+        <file src="System\OAuthSettings.cs" target="content" />
+        <file src="System\QBCustomerResponce.cs" target="content" />
+        <file src="System\QBResponce.cs" target="content" />
+        <file src="System\QueryResponse.cs" target="content" />
+        <file src="System\QueryResult.cs" target="content" />
+    </files>
+</package>

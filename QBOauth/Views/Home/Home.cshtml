@@ -1,0 +1,48 @@
+﻿@model QBOauth.Models.AuthModel
+@{
+    ViewBag.Title = "Home";
+}
+
+<h2>Home</h2>
+
+<div>
+    @Html.LabelFor(m=>m.Tokens.IdentityToken)
+    @Html.DisplayFor(m => m.Tokens.IdentityToken)
+</div>
+
+<div>
+    @Html.LabelFor(m => m.Tokens.AccessToken)
+    @Html.DisplayFor(m => m.Tokens.AccessToken)
+</div>
+
+<div>
+    @Html.LabelFor(m => m.Tokens.RefreshToken)
+    @Html.DisplayFor(m => m.Tokens.RefreshToken)
+</div>
+
+<div>
+    <input type="button" value="Create" onclick="location.href='@Url.Action("GetCompany", "Home")'" />
+</div>
+
+
+
+@using (Html.BeginForm("CreatePurchaseOrder", "Home", FormMethod.Post))
+{
+    <div>
+        @Html.TextAreaFor(m => m.Json)
+    </div>
+    <button type="submit">CreatePO</button>
+}
+
+
+@using (Html.BeginForm("CreateCustomer", "Home", FormMethod.Post))
+{
+    <div>
+        @Html.DisplayFor(m=>m.Status)
+    </div>
+    <div>
+        @Html.EditorFor(m => m.Customer)
+    </div>
+    <button type="submit">Create Customer</button>
+}
+
